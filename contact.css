@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+    /* max-width: 3000px; */
+    margin-left: 100px;
+}
+.col2{
+    flex-basis: 50%;
+    /* max-width: 3000px; */
+    /* margin-right: 100px; */
+    margin-left: 200px;
+}
+h1{
+    color: #333;
+    font-size: 100px;
+}
+p{
+    color: #333;
+    font-size: 30px;
+    line-height: 50px;
+}
+.col a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #CD9C5A;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.col a:hover{
+    background-color: #6E450D;
+    transform: translateY(-5px);
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 50px 10px 50px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(facebookcontact.png);
+}
+.card2{
+    background-image: url(instagramcontact.png);
+}
+.card3{
+    background-image: url(tiktokcontact.png);
+}
+.card4{
+    background-image: url(googleformcontact.png);
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+@media screen and (max-width: 600px) {
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10%;
+        padding: 2px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logo{
+        /* position: relative; */
+        max-width: 50px;
+    }
+    header ul li a{
+        color: #333;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+    .row{
+        flex-direction: column;
+        max-width: 500px;
+    }
+    .col{
+        align-items: center;
+        margin-left: -50px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .col h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .col p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .col a{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .card1{
+        margin-left: -200px;
+    }
+    .card2{
+        margin-left: -200px;
+    }
+    .card3{
+        margin-left: -200px;
+    }
+    .card4{
+        margin-left: -200px;
+    }
+    .main img{
+        margin-top: -150px;
+        width: 500px;
+    }
+    .about-text{
+        margin-left: 8px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .about-text h1{
+        color: #333;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        font-weight: 5000;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .benefits{
+        flex-direction: column-reverse;
+    }
+    .benefits img{
+        margin-left: -30px;
+    }
+    .benefits-text{
+        margin-left: 8px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .benefits-text h1{
+        color: #333;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        font-weight: 5000;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .addition{
+        flex-direction: column;
+    }
+    .addition img{
+        margin-left: -10px;
+    }
+    .addition-text{
+        margin-left: 8px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .addition-text h1{
+        color: #333;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        font-weight: 5000;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+}
