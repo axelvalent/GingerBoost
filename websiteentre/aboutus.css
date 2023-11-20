@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.about img{
+    height: auto;
+    width: 500px;
+    transition: 0.5s;
+}
+.about img:hover{
+    transform: translateY(-15px);
+}
+.about-text{
+    width: 500px;
+}
+.about-text{
+    text-align: justify;
+}
+.main{
+    width: 1130px;
+    max-width: 100%;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: #333;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: #333;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: #CD9C5A;
+}
+.about-text{
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #CD9C5A;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.about-text a:hover{
+    background-color: #6E450D;
+    transform: translateY(-5px);
+}
+.benefits{
+    display: flex;
+    align-items: center;
+    width: 1130px;
+    max-width: 100%;
+    margin: 150px auto;
+    justify-content: space-around;
+}
+.benefits img{
+    height: auto;
+    width: 500px;
+    transition: 0.5s;
+}
+.benefits-text h1{
+    color: #333;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.benefits-text h5{
+    color: #333;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+.benefits-text ul li{
+    color: #333;
+    font-size: 25px;
+    /* text-transform: capitalize; */
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+.benefits-text{
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    max-width: 600px;
+}
+.benefits-text a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #CD9C5A;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.benefits-text a:hover{
+    background-color: #6E450D;
+    transform: translateY(-5px);
+}
+.addition{
+    display: flex;
+    align-items: center;
+    width: 1130px;
+    max-width: 100%;
+    margin: 150px auto;
+    justify-content: space-around;
+}
+.addition-text h1{
+    color: #333;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+.addition-text h5{
+    color: #333;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.addition-text ul li{
+    color: #333;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+.addition-text{
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.addition-text a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #CD9C5A;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.addition-text a:hover{
+    background-color: #6E450D;
+    transform: translateY(-5px);
+}
+.addition img{
+    height: auto;
+    width: 500px;
+    transition: 0.5s;
+}
+@media screen and (max-width: 600px) {
+    header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10%;
+        padding: 2px 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header .logo{
+        /* position: relative; */
+        max-width: 50px;
+    }
+    header ul li a{
+        color: #333;
+        font-size: 20px;
+        font-weight: 400;
+        margin-left: 40px;
+        text-decoration: none;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .main img{
+        margin-top: -150px;
+        width: 500px;
+    }
+    .about-text{
+        margin-left: 8px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .about-text h1{
+        color: #333;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        font-weight: 5000;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .benefits{
+        flex-direction: column-reverse;
+    }
+    .benefits img{
+        margin-left: -30px;
+    }
+    .benefits-text{
+        margin-left: 8px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .benefits-text h1{
+        color: #333;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        font-weight: 5000;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+    .addition{
+        flex-direction: column;
+    }
+    .addition img{
+        margin-left: -10px;
+    }
+    .addition-text{
+        margin-left: 8px;
+        margin-top: 50px;
+        position: relative;
+        max-width: 300px;
+        text-align: center;
+    }
+    .addition-text h1{
+        color: #333;
+        font-size: 2.5em;
+        line-height: 1.4em;
+        font-weight: 5000;
+        margin-top: -50px;
+        margin-bottom: 50px;
+    }
+}
