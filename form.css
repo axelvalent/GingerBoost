@@ -69,8 +69,6 @@ header ul li a{
     transition: 0.5s;
 }
 .formcontent img:hover{
-    margin-left: 550px;
-    width: 35%;
     transform: translateY(-15px);
 }
 .content .textBox{
@@ -187,5 +185,12 @@ header ul li a{
         font-weight: 400;
         margin-left: 19px;
         text-decoration: none;
+    }
+    .formcontent img{
+        border-style: groove;
+        border-width: 50px;
+        border-color: #CD9C5A;
+        margin-left: -50px;
+        width: 300px;
     }
 }
